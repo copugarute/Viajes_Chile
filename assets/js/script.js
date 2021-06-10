@@ -10,7 +10,7 @@ $( ".card-title" ).on( "mouseover", function() {
   $( this ).css( "font-weight", "bold");
  $( this ).css( "font-size", "2rem");
 });
-
+//efecto fade cards
 $( ".card" ).click(function() {
   $( this).fadeTo( "slow" , 0.5, function() {
   });
